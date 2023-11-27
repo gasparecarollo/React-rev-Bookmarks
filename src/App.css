@@ -1,0 +1,12 @@
+/* List-style-type: none; removes the bullet points from <li> */
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* a tags replace <Link to> and there is no need for classNames */
+a {
+  text-decoration: none;
+  color: black;
+}
