@@ -54,7 +54,7 @@ const NewBookmarkForm = () => {
                         value={newBookmark.name}
                         required
                         onChange={handleChange}
-                    /> <br></br>
+                    /> <br /><br />
                     <label htmlFor="url">URL: </label>
                     <input
                         id="url"
@@ -63,7 +63,7 @@ const NewBookmarkForm = () => {
                         value={newBookmark.url}
                         required
                         onChange={handleChange}
-                    /> <br></br>
+                    /> <br /><br />
                     <label htmlFor="category">Category: </label>
                     <input
                         id="category"
@@ -72,16 +72,16 @@ const NewBookmarkForm = () => {
                         value={newBookmark.category}
                         required
                         onChange={handleChange}
-                    /> <br></br>
+                    /> <br /><br />
                     <label htmlFor="description">Description: </label>
                     <input
                         id="description"
                         type="text"
                         placeholder="Website Description"
                         value={newBookmark.description}
-                        required
+                        // required
                         onChange={handleChange}
-                    /> <br></br>
+                    /> <br /><br />
                     <label htmlFor='is_favorite'> Favorite</label>
                     <input
                         id='is_favorite'
@@ -89,7 +89,7 @@ const NewBookmarkForm = () => {
                         value={newBookmark.is_favorite}
                         onChange={handleCheckboxChange}
                     />
-                    <br></br>
+                    <br /><br />
                     <input type="submit" value="Add Bookmark" />
                 </fieldset>
             </form>

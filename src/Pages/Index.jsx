@@ -9,9 +9,9 @@ const Index = () => {
     useEffect(() => {
         fetch(`${API}/bookmarks`)
             .then(res => res.json())
-            .then(res => {
-                //console.log(res)
-                setBookmarks(res)
+            .then(resJSON => {
+                //console.log(resJSON)
+                setBookmarks(resJSON)
             })
     }, [])
 
