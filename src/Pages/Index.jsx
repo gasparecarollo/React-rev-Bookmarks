@@ -18,7 +18,6 @@ const Index = () => {
     return (
         <div className='bookmark-container'>
             {bookmarks.map((bookmark) => <Bookmark bookmark={bookmark} />
-
             )}
         </div>
     );
