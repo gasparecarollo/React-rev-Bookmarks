@@ -42,7 +42,7 @@ const NewBookmarkForm = () => {
 
 
     return (
-        <div>
+        <div className='new-form'>
             <form onSubmit={handleSubmit}>
                 <fieldset>
                     <legend> Bookmark Info</legend>
